@@ -1,0 +1,1 @@
+I:\TC\BIN\tcc -ms -II:\TC\INCLUDE -LI:\tc\lib %1 %2 %3 %4
