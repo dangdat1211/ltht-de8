@@ -19,6 +19,7 @@ INCLUDE LIB1.ASM
         HienString mTieuDe
 
         xor        ax, ax
+        
         int        11h
         shr        al, 2
 
