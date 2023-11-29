@@ -37,7 +37,7 @@ void main()
                  case 2: CAU2(); break;
                  case 3: CAU3(); break;
                  case 4: return;
-                 default: printf("\n     Nhap tu 1-3 thoi!");
+                 default: printf("\n     Nhap tu 1-4 thoi!");
                  }
      printf("\n     Co thuc hien CN chinh khac(c/k): ");
      tl=getch();
