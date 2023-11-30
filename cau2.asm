@@ -59,8 +59,6 @@ INCLUDE LIB1.ASM
 
         Exit:  
                 ret 
-                mov        ah, 4ch
-                int        21h
                 INCLUDE    LIB2.ASM
                 INCLUDE    LIB3.ASM
     _CAU2 ENDP

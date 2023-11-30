@@ -90,12 +90,10 @@ INCLUDE LIB1.ASM
                HienString mErrGetAtt
                call       HIEN_SO_N
 
-
     SucDocAtt: 
                HienString mAtt
                mov        ax, cx
                call       HIEN_SO_N
-
 
     TiepTuc:   
                HienString mTiepTuc
@@ -104,10 +102,9 @@ INCLUDE LIB1.ASM
                cmp        al,'c'
                jne        Exit
                jmp        NhapTenTep
+
     Exit:      
                 ret
-               mov        ah, 4ch
-               int        21h
                INCLUDE    LIB2.ASM
                INCLUDE    LIB3.ASM
     _CAU1 ENDP
